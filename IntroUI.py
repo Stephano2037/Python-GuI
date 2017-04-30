@@ -173,14 +173,12 @@ class DisasterIntro(QMainWindow):
         for self.i in range(len(g_sortArrayDate)):
             for self.j in range(self.i+1,len(g_sortArrayDate)):
                 if(self.num[self.i]>self.num[self.j]):
-                ###########문제코드########################
-                #나는 이해를 못하겠다
-                #뭐냐대체 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ
+          
                 
                     self.temp = self.num[self.i]
                     self.num[self.i] = self.num[self.j];
                     self.num[self.j]=self.temp
-                ###########위에가 없으면 정렬이 안됨,왜지?##############
+              
                 
                     self.temp = g_sortArrayDate[self.i];
                     g_sortArrayDate[self.i]=g_sortArrayDate[self.j]
